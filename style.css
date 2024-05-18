@@ -1,0 +1,576 @@
+body {
+    position: relative;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    margin: 0 auto;
+    width: 1440px;
+}
+
+/*HEADER*/
+
+
+.header {
+    height: 100px;
+    background-color: rgb(225, 237, 230);
+    display: flex;
+    align-items: center;
+}
+
+.logo_title_inner {
+    margin-left: 165px;
+    width: 160px;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo_site {
+    margin: 0px 8px;
+    width: 35px;
+    height: 35px;
+}
+
+.logo_title {
+    position: relative;
+    flex: none;
+    margin: 0px 8px;
+    width: 103px;
+    text-decoration: none;
+    color: rgb(89, 141, 102);
+    font-family: "Raleway";
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.container {
+    padding-left: 790px;
+    padding-right: 60px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 485px;
+    height: 27px;
+}
+
+.header_links {
+    display: flex;
+    gap: 60px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.link_name {
+    color: rgb(44, 45, 53);
+    font-size: 20px;
+    line-height: -1px;
+    letter-spacing: 0%;
+    font-weight: 500;
+    text-align: left;
+    text-decoration: none;
+    font-family: "Raleway";
+}
+
+.link_name:hover {
+    color: rgb(89, 141, 102);
+}
+
+
+.cart_buy {
+    width: 24px;
+    height: 24px;
+    background-image: url(./resourses/card-logo.png);
+    border: none;
+}
+
+.cart_buy:hover {
+    color:rgb(89, 141, 102);
+}
+
+
+/*MAIN*/
+
+
+.bird_section {
+    position: relative;
+    width: 1440px;
+    height: 620px;
+}
+
+.bird_image {
+    position: absolute;
+    box-sizing: border-box;
+    margin-left: 165px;
+    width: 540px;
+    height: 621px;
+}
+
+.container_bird {
+    position: absolute;
+    padding-top: 165px;
+    padding-left: 735px;
+}
+
+.bird_title_box {
+    width: 540px;
+    height: 132px;
+}
+
+.bird_title {
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 110%;
+    letter-spacing: 0%;
+    text-align: left;
+    color:rgb(44, 45, 53);
+    font-family: Raleway;
+}
+
+.span_text {
+    color:rgb(89, 141, 102);
+}
+
+.bird_text {
+    padding-top: 20px;
+    padding-bottom: 33px;
+    width: 470px;
+    height: 81px;
+    color: rgb(134, 146, 139);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.border_bird_production {
+    position:absolute;
+    width: 230px;
+    height: 64px;
+    border: 1px solid rgb(89, 141, 102);
+}
+
+.bird_production {
+    position: absolute;
+    padding: 20px 60px 20px 60px;
+    width: 110px;
+    height: 24px;
+    text-decoration: none;
+    color: rgb(89, 141, 102);
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: -1px;
+    letter-spacing: 0%;
+}
+.bird_production:hover {
+    color: rgb(244, 246, 245);
+    background: rgb(89, 141, 102);
+}
+
+.bird_production:focus {
+    background: rgb(212, 232, 217);
+    color: rgb(89, 141, 102);
+}
+
+.bird_production:active {
+    background: rgb(55, 107, 68);
+    color: rgb(255, 255, 255);
+}
+
+/*FLEX_COLUMNS*/
+
+
+.reproduction {
+    position: relative;
+    margin: 0px 165px;
+}
+
+.reproduction_menu {
+    display: inline-block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 1110px;
+    height: 47px;
+}
+
+.reproduction_title {
+    position: absolute;
+    width: 269px;
+    height: 44px;
+    color: rgb(44, 45, 53);
+    font-family: Raleway;
+    font-size: 40px;
+    font-weight: 500;
+    text-align: left;
+}
+
+
+.container_country {
+    padding-left: 666px;
+    position: absolute;
+    width: 444px;
+    height: 47px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+
+}
+
+
+.country_name {
+    width: 131px;
+    height: 47px;
+    border-radius: 20px;
+    background: rgb(212, 232, 217);
+    border: hidden;
+    cursor: pointer;
+    color: rgb(44, 45, 53);
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0%;
+}
+
+.country_name:hover {
+    border-radius: 20px;
+    background: rgb(89, 141, 102);
+    color: rgb(244, 246, 245);
+}
+
+.country_name:focus {
+    box-sizing: border-box;
+    border: 2px solid rgb(89, 141, 102);
+    border-radius: 20px;
+    background: rgb(212, 232, 217);
+    color: rgb(44, 45, 53);
+}
+
+.country_name:active {
+    border-radius: 20px;
+    background: rgb(55, 107, 68);
+    color: rgb(244, 246, 245);
+}
+
+
+/*FLEX_COLUMNS2*/
+
+.column_cards {
+    position: static;
+    padding-top: 60px;
+    width: 1110px;
+    height: 1490px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.fon_card {
+    width: 350px;
+    height: 730px;
+    background-color: rgb(225, 237, 230);
+
+}
+
+.image_sizes {
+    padding: 20px;
+    width: 310px;
+    height: 422px;
+}
+
+.author {
+    padding: 0px 0px 7px 20px;
+    width: 154px;
+    height: 24px;
+    color: rgb(134, 146, 139);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.name_picture {
+    padding: 0px 0px 2px 20px;
+    width: 310px;
+    height: 41px;
+    color: rgb(44, 45, 53);
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.tools_made_picture {
+    padding: 0px 0px 27px 20px;
+    width: 310px;
+    height: 24px;
+    color: rgb(44, 45, 53);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.price_picture {
+    padding: 0px 0px 19px 20px;
+    width: 128px;
+    height: 29px;
+    color: rgb(89, 141, 102);
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.buy_picture {
+    margin: 0px 20px 30px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 310px;
+    height: 65px;
+    box-sizing: border-box;
+    border: 1px solid rgb(89, 141, 102);
+    background-color: rgb(225, 237, 230);
+}
+
+
+.btn_text {
+    width: 150px;
+    height: 27px;
+    color: rgb(89, 141, 102);
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+}
+
+/*fullscreen*/
+
+
+.full_screen {
+    padding-top: 1670px;
+}
+
+.new_collection {
+    position: absolute;
+    width: 1440px;
+    height: 574px;
+    background-image: url(./resourses/pic_background.png);
+    background-position: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.yellow_star {
+    position: absolute;
+    padding-top: 70px;
+    padding-left: 165px;
+}
+
+.title_collection {
+    position: relative;
+    padding-top: 70px;
+    padding-left: 265px;
+    width: 600px;
+    height: 80px;
+    color: rgb(244, 246, 245);
+    font-family: Raleway;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+
+.desc_collection {
+    padding-top: 20px;
+    padding-left: 165px;
+    padding-bottom: 6px;
+    width: 480px;
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+.border_open_collection {
+    margin-left: 165px;
+    position: absolute;
+    width: 266px;
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: rgb(238, 219, 109);
+
+}
+
+.border_open_collection:hover {
+    background: rgb(250, 235, 151);
+}
+
+.border_open_collection:active {
+    background: rgb(217, 185, 73);
+}
+
+
+.open_collection {
+    position: absolute;
+    width: 146px;
+    height: 20px;
+    text-decoration: none;
+    color: rgb(44, 45, 53);
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: -1px;
+    letter-spacing: 0%;
+    text-align:center;
+}
+
+
+.open_collection:hover {
+    background: rgb(250, 235, 151);
+}
+
+.open_collection:active {
+    background: rgb(217, 185, 73);
+}
+
+
+/*OUR_TEAM*/
+
+
+.our_team {
+    position: absolute;
+    margin-top: 650px;
+    margin-left: 165px;
+    padding-bottom: 70px;
+    width: 1110px;
+    height: 440px;
+}
+
+.container_team {
+    box-sizing: border-box;
+    position: absolute;
+    display:inline-block;
+    flex-direction: column;
+
+}
+
+.image_create {
+    position: absolute;
+    width: 445px;
+    height: 440px;
+}
+
+
+.team_borders {
+    padding-left: 480px;
+    padding-top: 140px;
+    padding-right: 165px;
+    width: 635px;
+    height: 272px;
+
+}
+
+
+.team_title {
+    padding-bottom: 20px;
+    width: 296px;
+    height: 44px;
+    color: rgb(44, 45, 53);
+    font-family: Raleway;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.desc_team {
+    position: absolute;
+    width: 635px;
+    height: 162px;
+    color: rgb(44, 45, 53);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.pictures {
+    padding-top: 120px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.team_photo {
+    position: static;
+    width: 80px;
+    height: 80px;
+}
+
+/*footer*/
+
+
+
+.footer_boxes {
+    padding-top: 1200px;
+}
+
+.container_footer {
+    position: absolute;
+    background: rgb(225, 237, 230);
+    width: 1440px;
+    height: 168px;
+}
+
+.logo_title_inner {
+    padding-top: 23px;
+    display: flex;
+    flex-direction: row;
+    flex: content;
+}
+
+.tel {
+    position: absolute;
+    display: flex;
+    padding-top: 93px;
+    width: 197px;
+    height: 24px;
+    text-decoration: none;
+    color: rgb(44, 45, 53);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: -1px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.mastery {
+    position: absolute;
+    padding-top: 160px;
+    width: 106px;
+    height: 24px;
+    color: rgb(134, 146, 139);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 500;
+}
